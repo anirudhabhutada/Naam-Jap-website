@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naam Jap — Digital Rudraksha Mala &amp; Daily Mantra Counter App</title>
+  <meta name="description" content="Naam Jap is a calm digital Rudraksha Mala and mantra counter app for Android. Choose a built-in or custom mantra, set your target, chant offline, and track your daily sadhana." />
+  <link rel="canonical" href="https://naamjap.app/" />
+
+  <!-- Open Graph & Social Previews -->
+  <meta property="og:title" content="Naam Jap — Digital Rudraksha Mala &amp; Mantra Counter" />
+  <meta property="og:description" content="Your Naam. Your Count. Your Mala. Practice daily Naam Jap with a 3D Rudraksha Mala, custom mantras, 14 app languages, and local sadhana tracking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://naamjap.app/" />
+  <meta property="og:site_name" content="Naam Jap" />
+  <meta property="og:image" content="https://naamjap.app/logo/appicon.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Naam Jap — Digital Rudraksha Mala &amp; Mantra Counter" />
+  <meta name="twitter:description" content="Calm digital Rudraksha Mala and daily mantra counter for Android across 14 languages." />
+  <meta name="twitter:image" content="https://naamjap.app/logo/appicon.png" />
+
+  <!-- Favicon & App Icons -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/png" sizes="128x128" href="./logo/appicon-128.png" />
+  <link rel="apple-touch-icon" href="./logo/appicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="site-header">
+    <div class="header-content">
+      <a href="./" class="logo-brand">
+        <picture>
+          <source srcset="./logo/appicon-128.webp" type="image/webp" />
+          <img src="./logo/appicon-128.png" alt="Naam Jap Logo" class="app-logo" width="44" height="44" />
+        </picture>
+        <span class="brand-name">Naam <span>Jap</span></span>
+      </a>
+
+      <div class="header-right">
+        <nav class="site-nav" aria-label="Primary Navigation">
+          <a href="./" class="nav-link active" aria-current="page">Home</a>
+          <a href="./faq/" class="nav-link">FAQ</a>
+          <a href="./support/" class="nav-link">Support</a>
+          <a href="./privacy-policy/" class="nav-link">Privacy</a>
+        </nav>
+        <span class="badge-app" data-i18n="badgeApp">Official Website</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="main-content">
+    <div class="container">
+      <!-- Hero Title & Language Switcher -->
+      <section class="hero-text" aria-labelledby="hero-title">
+        <div class="eyebrow-row">
+          <p class="eyebrow">
+            <span class="eyebrow-icon" aria-hidden="true">
+              <svg class="eyebrow-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2L14.5 9.5L22 12L14.5 14.5L12 22L9.5 14.5L2 12L9.5 9.5L12 2Z" />
+              </svg>
+            </span>
+            <span data-i18n="eyebrow">DAILY NAAM JAP</span>
+          </p>
+          <div class="lang-selector-wrap">
+            <span class="lang-icon" aria-hidden="true">
+              <svg class="lang-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M2 12h20"></path>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </span>
+            <select id="langSelect" class="lang-select" aria-label="Select hero language">
+              <option value="en">English</option>
+              <option value="hi">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368; (Hindi)</option>
+              <option value="sa">&#2360;&#2306;&#2360;&#2381;&#2325;&#2371;&#2340;&#2350;&#2381; (Sanskrit)</option>
+              <option value="gu">&#2711;&#2753;&#2716;&#2736;&#2750;&#2724;&#2752; (Gujarati)</option>
+              <option value="ta">&#2980;&#2990;&#3007;&#2996;&#3021; (Tamil)</option>
+              <option value="te">&#3108;&#3142;&#3122;&#3137;&#3095;&#3137; (Telugu)</option>
+              <option value="bn">&#2476;&#2494;&#2434;&#2482;&#2494; (Bengali)</option>
+              <option value="pa">&#2602;&#2672;&#2588;&#2622;&#2604;&#2624; (Punjabi)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Prominent App Icon Showcase -->
+        <div class="hero-app-showcase">
+          <div class="hero-logo-frame">
+            <picture>
+              <source srcset="./logo/appicon.webp" type="image/webp" />
+              <img src="./logo/appicon.png" alt="Naam Jap App Icon" class="hero-app-logo" width="128" height="128" />
+            </picture>
+          </div>
+        </div>
+
+        <h1 id="hero-title">Naam Jap</h1>
+        <p class="tagline" data-i18n="tagline">Your Naam. Your Count. Your Mala.</p>
+        <p class="subtext" data-i18n="subtext">A calm, focused digital Rudraksha Mala for your daily Naam Jap. Choose your Naam, set your target, and begin your practice without creating an account.</p>
+      </section>
+
+      <!-- Main Download & App Preview Card -->
+      <section class="download-card" aria-label="Download Naam Jap and App Preview">
+        <div class="buttons-grid">
+          <a id="apkDownloadBtn" href="https://github.com/anirudhabhutada/Naam-Jap-/releases/download/v1.2.0/naam-jap-latest.apk" class="btn btn-primary" download="naam-jap-v1.2.0.apk">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4483-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993.0001.5511-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993 0 .5511-.4483.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.2439 13.8533 7.8508 12 7.8508s-3.5902.3931-5.1367 1.0989L4.841 5.4467a.4161.4161 0 00-.5677-.1521.4157.4157 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3435-4.1021-2.6892-7.5743-6.1185-9.4396" />
+            </svg>
+            <div class="btn-text">
+              <span class="btn-subtitle" data-i18n="btnAndroidSubtitle">ANDROID DIRECT APK</span>
+              <span id="apkTitleText" class="btn-title" data-i18n="btnAndroidTitle">Download APK</span>
+              <span id="apkMetaText" class="btn-meta" data-i18n="btnAndroidMeta">Version 1.2.0 (34.1 MB)</span>
+            </div>
+          </a>
+
+          <div class="btn btn-secondary btn-coming-soon" role="status" aria-label="Google Play Store listing coming soon">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
+            </svg>
+            <div class="btn-text">
+              <span class="btn-subtitle" data-i18n="btnPlaySubtitle">GOOGLE PLAY STORE</span>
+              <span class="btn-title">
+                <span data-i18n="btnPlayTitle">Coming Soon</span>
+                <span class="btn-inline-badge">Google Play</span>
+              </span>
+              <span class="btn-meta" data-i18n="btnPlayMeta">Android release in preparation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real App Screenshots Carousel -->
+        <div class="screenshots-section">
+          <div class="screenshots-header">
+            <span class="screenshots-label" data-i18n="screenshotsLabel">APP SCREENSHOTS</span>
+          </div>
+          <div class="carousel-wrap">
+            <div class="screenshots-track" id="screenshotsTrack">
+              <div class="screenshot-slide">
+                <picture>
+                  <source srcset="./assets/screenshots/01-hero.webp" type="image/webp" />
+                  <img src="./assets/screenshots/01-hero.png" alt="Naam Jap Home screen showing Daily Thought, Today's Sadhana, and Active Naam" class="screenshot-img" loading="eager" />
+                </picture>
+              </div>
+              <div class="screenshot-slide">
+                <picture>
+                  <source srcset="./assets/screenshots/02-device-bottom.webp" type="image/webp" />
+                  <img src="./assets/screenshots/02-device-bottom.png" alt="Naam Jap interactive 3D Rudraksha Mala chanting counter" class="screenshot-img" loading="lazy" />
+                </picture>
+              </div>
+              <div class="screenshot-slide">
+                <picture>
+                  <source srcset="./assets/screenshots/03-split-landscape.webp" type="image/webp" />
+                  <img src="./assets/screenshots/03-split-landscape.png" alt="Naam Jap Sadhana summary showing daily progress and lifetime chanting history" class="screenshot-img" loading="lazy" />
+                </picture>
+              </div>
+              <div class="screenshot-slide">
+                <picture>
+                  <source srcset="./assets/screenshots/04-two-devices.webp" type="image/webp" />
+                  <img src="./assets/screenshots/04-two-devices.png" alt="Naam Jap Settings screen showing language selection, haptics, theme options, and data management" class="screenshot-img" loading="lazy" />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="screenshots-dots" id="screenshotsDots" aria-label="Screenshot navigation dots">
+            <button type="button" class="dot active" data-idx="0" aria-label="View screenshot 1"></button>
+            <button type="button" class="dot" data-idx="1" aria-label="View screenshot 2"></button>
+            <button type="button" class="dot" data-idx="2" aria-label="View screenshot 3"></button>
+            <button type="button" class="dot" data-idx="3" aria-label="View screenshot 4"></button>
+          </div>
+        </div>
+
+        <!-- QR Code Quick Link -->
+        <div class="qr-row">
+          <div class="qr-section">
+            <span class="qr-header" data-i18n="qrHeader">SCAN TO DOWNLOAD ON MOBILE</span>
+            <div class="qr-box">
+              <img id="qrImage" src="https://api.qrserver.com/v1/create-qr-code/?size=130x130&amp;data=https%3A%2F%2Fnaamjap.app%2F&amp;color=241A15&amp;bgcolor=F7F1E6" alt="QR Code to open Naam Jap website on mobile" width="130" height="130" />
+            </div>
+            <p class="qr-desc" data-i18n="qrDesc">Scan with your phone camera to open this download page on your mobile phone.</p>
+            <button type="button" id="copyBtn" class="copy-btn">
+              <svg class="copy-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="copyText" data-i18n="copyText">Copy Download Link</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Key Highlights Row -->
+        <div class="badges-row">
+          <span class="badge-item">
+            <svg class="badge-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="badgeOffline">Offline Chanting</span>
+          </span>
+          <span class="badge-item">
+            <svg class="badge-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="badgeFree">Free &amp; Ad-Supported</span>
+          </span>
+          <span class="badge-item">
+            <svg class="badge-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="badgeTarget">Custom Target</span>
+          </span>
+          <span class="badge-item">
+            <svg class="badge-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="badgeLangs">14 Languages</span>
+          </span>
+        </div>
+      </section>
+
+      <!-- What is Naam Jap & Digital Rudraksha Mala -->
+      <section class="home-section" aria-labelledby="about-heading">
+        <div class="section-header">
+          <span class="section-tag">ABOUT THE APP</span>
+          <h2 id="about-heading" class="section-title">A Peaceful Companion for Daily Naam Jap</h2>
+          <p class="section-subtitle">Designed to help you stay consistent in daily mantra chanting without accounts, logins, or complicated menus.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <h3>What Naam Jap Helps You Do</h3>
+            <p>Whether you are keeping a daily 108-bead mala sankalpa or setting a shorter or longer mantra goal during a busy day, Naam Jap gives you a calm digital Rudraksha Mala on your phone.</p>
+            <h3>How the Digital Rudraksha Mala Works</h3>
+            <p>Open the chanting screen and tap anywhere on the interactive 3D Rudraksha Mala to advance bead by bead. Gentle haptic feedback confirms every count, optional instant audio chimes or plays built-in mantra recitations, and your active chanting screen stays free of banner or pop-up advertisements.</p>
+            <p>All counts, completed malas, custom mantras, theme choices, and reminder schedules stay stored locally on your device.</p>
+          </div>
+          <div class="about-visual">
+            <picture>
+              <source srcset="./assets/screen-jap.webp" type="image/webp" />
+              <img src="./assets/screen-jap.png" alt="Naam Jap digital Rudraksha Mala interface shown on a smartphone" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- Genuine Verified App Features -->
+      <section class="home-section" aria-labelledby="features-heading">
+        <div class="section-header">
+          <span class="section-tag">CORE FEATURES</span>
+          <h2 id="features-heading" class="section-title">Focused Features for Daily Sadhana</h2>
+          <p class="section-subtitle">Every feature documented here is verified directly from the Naam Jap Android application.</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="7.5"></circle>
+                <circle cx="12" cy="4.5" r="1.4" fill="currentColor"></circle>
+                <circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"></circle>
+                <circle cx="19.5" cy="12" r="1.2" fill="currentColor"></circle>
+                <circle cx="17.3" cy="17.3" r="1.2" fill="currentColor"></circle>
+                <circle cx="12" cy="19.5" r="1.2" fill="currentColor"></circle>
+                <circle cx="6.7" cy="17.3" r="1.2" fill="currentColor"></circle>
+                <circle cx="4.5" cy="12" r="1.2" fill="currentColor"></circle>
+                <circle cx="6.7" cy="6.7" r="1.2" fill="currentColor"></circle>
+              </svg>
+            </div>
+            <h3>3D Rudraksha Mala Interaction</h3>
+            <p>Tap anywhere on the chanting surface to roll the 3D Rudraksha bead downward, paired with customizable haptic vibration and clean count tracking.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>
+            <h3>Built-In &amp; Custom Mantras</h3>
+            <p>Start immediately with 5 built-in divine names (Radha, Ram, Krishna, Shiv, Waheguru) or enter your own personal mantra stored only on your device.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="6"></circle>
+                <circle cx="12" cy="12" r="2"></circle>
+              </svg>
+            </div>
+            <h3>Flexible Targets &amp; Presets</h3>
+            <p>Select quick presets for 11, 21, 51, 108, 216, 501, or 1008 chants per mala, or enter any custom numeric target that suits your sadhana.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 3v18h18"></path>
+                <rect x="7" y="12" width="3" height="6" rx="1"></rect>
+                <rect x="12" y="7" width="3" height="11" rx="1"></rect>
+                <rect x="17" y="4" width="3" height="14" rx="1"></rect>
+              </svg>
+            </div>
+            <h3>Sadhana Progress &amp; Streaks</h3>
+            <p>Track today&rsquo;s total chants, completed malas, active practice days, and lifetime history locally in your Sadhana summary.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              </svg>
+            </div>
+            <h3>Local Daily Reminders</h3>
+            <p>Schedule morning or evening chanting reminders using on-device local notifications &mdash; no user registration or external messaging account required.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            </div>
+            <h3>Themes &amp; Ad-Supported Free Access</h3>
+            <p>Switch between Light, Dark, or System themes, or unlock a temporary Golden Divine theme by watching an optional rewarded ad via Google AdMob.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section class="home-section" aria-labelledby="steps-heading">
+        <div class="section-header">
+          <span class="section-tag">HOW IT WORKS</span>
+          <h2 id="steps-heading" class="section-title">Begin in Three Simple Steps</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <span class="step-num">1</span>
+            <h3>Choose Your Naam &amp; Target</h3>
+            <p>Pick a built-in mantra with audio support or write your own custom mantra, then set 108 or any custom target count.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">2</span>
+            <h3>Chant with the Mala</h3>
+            <p>Tap anywhere on the 3D Rudraksha Mala screen to count each repetition with tactile vibration feedback.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">3</span>
+            <h3>Review Daily Sadhana</h3>
+            <p>View your completed malas and daily streaks, adjust sound or haptics in Settings, and export or clear local data anytime.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14 Verified App Languages -->
+      <section class="home-section" aria-labelledby="langs-heading">
+        <div class="section-header">
+          <span class="section-tag">LOCALIZATION</span>
+          <h2 id="langs-heading" class="section-title">14 Supported App Languages</h2>
+          <p class="section-subtitle">Change the entire Naam Jap app interface at any time from Settings &rarr; Language inside the Android app.</p>
+        </div>
+
+        <div class="lang-pills" role="list" aria-label="14 supported languages in the Naam Jap Android app">
+          <span class="lang-pill" role="listitem">English</span>
+          <span class="lang-pill" role="listitem">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368; (Hindi)</span>
+          <span class="lang-pill" role="listitem">&#2350;&#2352;&#2366;&#2336;&#2368; (Marathi)</span>
+          <span class="lang-pill" role="listitem">&#2711;&#2753;&#2716;&#2736;&#2750;&#2724;&#2752; (Gujarati)</span>
+          <span class="lang-pill" role="listitem">&#2476;&#2494;&#2434;&#2482;&#2494; (Bengali)</span>
+          <span class="lang-pill" role="listitem">&#2980;&#2990;&#3007;&#2996;&#3021; (Tamil)</span>
+          <span class="lang-pill" role="listitem">&#3108;&#3142;&#3122;&#3137;&#3095;&#3137; (Telugu)</span>
+          <span class="lang-pill" role="listitem">&#3221;&#3240;&#3277;&#3240;&#3233; (Kannada)</span>
+          <span class="lang-pill" role="listitem">&#3374;&#3378;&#3375;&#3390;&#3379;&#3330; (Malayalam)</span>
+          <span class="lang-pill" role="listitem">&#2602;&#2672;&#2588;&#2622;&#2604;&#2624; (Punjabi)</span>
+          <span class="lang-pill" role="listitem">&#2835;&#2849;&#2876;&#2879;&#2822; (Odia)</span>
+          <span class="lang-pill" role="listitem">&#2437;&#2488;&#2478;&#2496;&#2527;&#2494; (Assamese)</span>
+          <span class="lang-pill" role="listitem">&#2360;&#2306;&#2360;&#2381;&#2325;&#2371;&#2340;&#2350;&#2381; (Sanskrit)</span>
+          <span class="lang-pill" role="listitem">&#1575;&#1585;&#1583;&#1608; (Urdu)</span>
+        </div>
+      </section>
+
+      <!-- FAQ Preview & Direct Compliance Links -->
+      <section class="home-section" aria-labelledby="faq-preview-heading">
+        <div class="section-header">
+          <span class="section-tag">QUESTIONS &amp; SUPPORT</span>
+          <h2 id="faq-preview-heading" class="section-title">Quick Answers</h2>
+          <p class="section-subtitle">Key details about how Naam Jap works, advertising, offline use, and privacy.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>
+              <span>Does Naam Jap require sign-up or an account?</span>
+              <span class="faq-chevron" aria-hidden="true"><svg class="faq-chevron-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </summary>
+            <div class="faq-answer">
+              <p>No. Naam Jap has no login, registration, or user accounts. Your chanting counts, custom mantras, targets, and reminder preferences stay locally on your device.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Does Naam Jap show advertisements?</span>
+              <span class="faq-chevron" aria-hidden="true"><svg class="faq-chevron-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. Naam Jap is free and supported by Google AdMob advertisements (such as Home screen native ads, occasional interstitial transitions with cooldown limits, and optional rewarded ads to unlock the Golden Divine theme). No ads are shown while you are actively chanting on the mala screen.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Can I customize my mantra and target count?</span>
+              <span class="faq-chevron" aria-hidden="true"><svg class="faq-chevron-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. You can select any of the 5 built-in mantras or add your own custom mantra text, and set preset counts (11, 21, 51, 108, 216, 501, 1008) or any custom target.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>How can I delete my data or contact support?</span>
+              <span class="faq-chevron" aria-hidden="true"><svg class="faq-chevron-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Because Naam Jap does not create cloud accounts, you can delete your stored data anytime inside the app under <strong>Settings &rarr; Manage Your Data</strong> or by uninstalling the app. For questions, email <a href="mailto:pinakmahadev@gmail.com">pinakmahadev@gmail.com</a>.</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="section-actions">
+          <a href="./faq/" class="pill-cta primary">Read All FAQs</a>
+          <a href="./support/" class="pill-cta">Contact Support</a>
+          <a href="./privacy-policy/" class="pill-cta">Privacy Policy</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Consistent Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand-block">
+        <div class="footer-left">
+          <picture>
+            <source srcset="./logo/appicon-128.webp" type="image/webp" />
+            <img src="./logo/appicon-128.png" alt="Naam Jap icon" class="footer-logo" width="32" height="32" loading="lazy" />
+          </picture>
+          <span data-i18n="footerText">Naam Jap &bull; Your Naam. Your Count. Your Mala.</span>
+        </div>
+        <p class="footer-desc">A calm digital Rudraksha Mala and daily mantra counter app for Android. Built for focused chanting without account sign-ups.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <div class="footer-links">
+          <a href="./">Home</a>
+          <a href="./faq/">FAQ</a>
+          <a href="./support/">Support &amp; Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal &amp; Support</h4>
+        <div class="footer-links">
+          <a href="./privacy-policy/">Privacy Policy</a>
+          <a href="./terms/">Terms of Use</a>
+          <a href="mailto:pinakmahadev@gmail.com">pinakmahadev@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Naam Jap. All rights reserved.</span>
+      <span>Google Play Store listing coming soon &bull; Verified contact: <a href="mailto:pinakmahadev@gmail.com">pinakmahadev@gmail.com</a></span>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

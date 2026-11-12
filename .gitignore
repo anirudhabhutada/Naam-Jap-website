@@ -1,0 +1,10 @@
+# Binary packages and archives (APK is distributed via GitHub Releases)
+*.apk
+*.zip
+
+# Internal audit and readiness reports
+WEBSITE_AUDIT_REPORT.md
+PRIVACY_POLICY_DATA_AUDIT.md
+WEBSITE_PLAY_STORE_READINESS_REPORT.md
+WEBSITE_CHANGELOG.md
+
