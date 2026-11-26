@@ -2,28 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://naamjap.app/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/mantra-counter-app/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/jap-counter/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/rudraksha-mala-counter/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/digital-jap-mala/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/hi/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/mr/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/blog/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/blog/what-is-naam-jap/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/blog/significance-of-108-in-jap/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/blog/digital-jap-mala-vs-physical-mala/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/blog/how-to-count-mantra-repetitions/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://naamjap.app/blog/ram-naam-jap-beginners-guide/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://naamjap.app/privacy-policy/</loc>
     <lastmod>2026-11-12</lastmod>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://naamjap.app/support/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://naamjap.app/faq/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://naamjap.app/terms/</loc>
     <lastmod>2026-11-12</lastmod>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
 </urlset>
-

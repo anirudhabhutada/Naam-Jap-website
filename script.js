@@ -268,14 +268,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // -------------------------------------------------------------
-  // 5. Instant Download Click Feedback
+  // 5. Instant Download Click Feedback & Optional GA4 Event Hook
   // -------------------------------------------------------------
+  function trackEvent(eventName, params) {
+    if (typeof window.gtag === 'function') {
+      try {
+        window.gtag('event', eventName, params || {});
+      } catch (e) {}
+    }
+  }
+
   const apkDownloadBtn = document.getElementById('apkDownloadBtn');
   const apkTitleText = document.getElementById('apkTitleText');
   const apkMetaText = document.getElementById('apkMetaText');
 
   if (apkDownloadBtn) {
     apkDownloadBtn.addEventListener('click', () => {
+      trackEvent('apk_download_click', { app_version: '1.2.0', page_path: window.location.pathname });
       if (navigator.vibrate) {
         try { navigator.vibrate(50); } catch (e) {}
       }
