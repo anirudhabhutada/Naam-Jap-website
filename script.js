@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "A calm, focused digital Rudraksha Mala for your daily Naam Jap. Choose your Naam, set your target, and begin your practice without creating an account.",
       btnAndroidSubtitle: "ANDROID DIRECT APK",
       btnAndroidTitle: "Download APK",
-      btnAndroidMeta: "Version 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "Version 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "GOOGLE PLAY STORE",
       btnPlayTitle: "Coming Soon",
       btnPlayMeta: "Android release in preparation",
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "आपके दैनिक नाम जप के लिए एक शांत और सरल डिजिटल रुद्राक्ष माला। बिना लॉगिन के अपना नाम और लक्ष्य चुनें और साधना आरंभ करें।",
       btnAndroidSubtitle: "एंड्रॉइड डायरेक्ट एपीके",
       btnAndroidTitle: "डाउनलोड एपीके (APK)",
-      btnAndroidMeta: "संस्करण 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "संस्करण 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "गूगल प्ले स्टोर",
       btnPlayTitle: "शीघ्र आ रहा है",
       btnPlayMeta: "एंड्रॉइड रिलीज़ प्रक्रिया में",
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "तव नित्यनामजपाय सरला शान्ता च डिजि़टल् रुद्राक्षमाला। प्रवेशं विना स्वकीयं नाम लक्ष्यं च चित्वा जपं प्रारभन्तु।",
       btnAndroidSubtitle: "एंड्रॉइड् प्रत्यक्ष एपीके",
       btnAndroidTitle: "डाउनलोड् एपीके",
-      btnAndroidMeta: "आवृत्तिः 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "आवृत्तिः 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "गूगल प्ले स्टोर्",
       btnPlayTitle: "शीघ्रम् आगच्छति",
       btnPlayMeta: "प्ले स्टोर् प्रकाशनं प्रचलति",
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "તમારા દૈનિક નામ જપ માટે એક શાંત અને સરળ ડિજિટલ રુદ્રાક્ષ માળા. કોઈપણ લૉગિન વિના તમારું નામ અને લક્ષ્ય પસંદ કરીને જપ શરૂ કરો.",
       btnAndroidSubtitle: "એન્ડ્રોઇડ ડાયરેક્ટ એપીકે",
       btnAndroidTitle: "ડાઉનલોડ એપીકે (APK)",
-      btnAndroidMeta: "આવૃત્તિ 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "આવૃત્તિ 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "ગૂગલ પ્લે સ્ટોર",
       btnPlayTitle: "ટૂંક સમયમાં આવી રહ્યું છે",
       btnPlayMeta: "પ્લે સ્ટોર રિલીઝની તૈયારીમાં",
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "உங்கள் தினசரி நாம ஜபத்திற்கான அமைதியான டிஜிட்டல் ருத்ராட்ச மாலை. கணக்கு தொடங்காமல் உங்கள் நாமத்தையும் இலக்கையும் தேர்ந்தெடுத்து ஜபத்தைத் தொடங்குங்கள்.",
       btnAndroidSubtitle: "ஆண்ட்ராய்டு நேரடி APK",
       btnAndroidTitle: "APK பதிவிறக்க",
-      btnAndroidMeta: "பதிப்பு 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "பதிப்பு 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "கூகுள் பிளே ஸ்டோர்",
       btnPlayTitle: "விரைவில் வருகிறது",
       btnPlayMeta: "Play Store வெளியீடு தயாராகிறது",
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "మీ రోజువారీ నామ జపం కోసం ప్రశాంతమైన డిజిటల్ రుద్రాక్ష మాల. ఖాతా అవసరం లేకుండా మీ నామం మరియు లక్ష్యాన్ని ఎంచుకుని జపం ప్రారంభించండి.",
       btnAndroidSubtitle: "ఆండ్రాయిడ్ డైరెక్ట్ APK",
       btnAndroidTitle: "APK డౌన్‌లోడ్ చేయండి",
-      btnAndroidMeta: "వెర్షన్ 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "వెర్షన్ 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "గూగుల్ ప્లే స్టోర్",
       btnPlayTitle: "త్వరలో వస్తోంది",
       btnPlayMeta: "Play Store విడుదల సిద్ధమవుతోంది",
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "আপনার দৈনন্দিন নাম জপের জন্য একটি শান্ত ডিজিটাল রুদ্রাক্ষ মালা। কোনো অ্যাকাউন্ট ছাড়াই আপনার নাম ও লক্ষ্য নির্বাচন করে জপ শুরু করুন।",
       btnAndroidSubtitle: "অ্যান্ড্রয়েড সরাসরি APK",
       btnAndroidTitle: "APK ডাউনলোড করুন",
-      btnAndroidMeta: "সংস্করণ 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "সংস্করণ 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "গুগল প্লে স্টোর",
       btnPlayTitle: "শীঘ্রই আসছে",
       btnPlayMeta: "Play Store প্রকাশের প্রস্তুতি চলছে",
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subtext: "ਤੁਹਾਡੇ ਰੋਜ਼ਾਨਾ ਨਾਮ ਜਪ ਲਈ ਇੱਕ ਸ਼ਾਂਤ ਅਤੇ ਸਰਲ ਡਿਜੀਟਲ ਰੁਦਰਾਖ ਮਾਲਾ। ਬਿਨਾਂ ਲੌਗਇਨ ਆਪਣਾ ਨਾਮ ਅਤੇ ਟੀਚਾ ਚੁਣੋ, ਅਤੇ ਜਪ ਸ਼ੁਰੂ ਕਰੋ।",
       btnAndroidSubtitle: "ਐਂਡਰੌਇਡ ਡਾਇਰੈਕਟ APK",
       btnAndroidTitle: "APK ਡਾਊਨਲੋਡ ਕਰੋ",
-      btnAndroidMeta: "ਵਰਜਨ 1.2.0 (31.3 MB)",
+      btnAndroidMeta: "ਵਰਜਨ 1.2.0 (32.3 MB)",
       btnPlaySubtitle: "ਗੂਗਲ ਪਲੇ ਸਟੋਰ",
       btnPlayTitle: "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ",
       btnPlayMeta: "Play Store ਰਿਲੀਜ਼ ਦੀ ਤਿਆਰੀ ਵਿੱਚ",
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
           apkTitleText.textContent = origTitle;
-          if (apkMetaText) apkMetaText.textContent = "Version 1.2.0 (31.3 MB)";
+          if (apkMetaText) apkMetaText.textContent = "Version 1.2.0 (32.3 MB)";
         }, 4000);
       }
     });
